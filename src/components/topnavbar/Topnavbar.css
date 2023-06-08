@@ -35,7 +35,7 @@
 }
 .searchInput{
     border: none;
-    width: 70%;
+    width: 66%;
 
 }
 .searchInput:focus{
@@ -48,6 +48,7 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    padding-right: 1rem;
 }
 .topnavbaarCenter{
     flex: 5;
@@ -77,7 +78,8 @@
     margin-right: 15px;
     cursor: pointer;
     position: relative;
-
+    display: flex;
+    align-items: center;
 }
 .topnavbaarIconBadge{
     width: 15px;

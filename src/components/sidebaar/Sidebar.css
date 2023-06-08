@@ -17,7 +17,7 @@ width: 10px;}
     padding: 5px;
     margin: 10px;
     list-style: none;
-    height: calc(52vh - 50px);
+    height: calc(58vh - 50px);
 
 }
 .sidebarListItem{
@@ -46,11 +46,11 @@ width: 10px;}
 }
 
 .sidebarfriendlist{
-    padding: 0;
+    padding: 10px;
     margin: 0;
     list-style:none ;
     overflow-y: auto;
-    height: calc(40vh - 50px);
+    height: calc(37vh - 50px);
 }
 .sidebarfriend{
     display: flex;
