@@ -39,7 +39,7 @@ export default function Sidebar() {
                         <span className="sidebarListItemText">Videos</span>
                     </li>
                     <li className="sidebarListItem">  
-                     <button className="sidebarbutton">Shoe More</button>
+                     <button className="sidebarbutton">Show More</button>
                     </li>
                 </ul>
              
