@@ -49,3 +49,46 @@
     overflow-y: scroll;
     height: calc(37vh - 50px);
 }
+.rightbartital{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 1rem;
+
+}
+.rightbaefollowingimg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 1rem;
+}
+.rightbarfollowingname{
+    padding: 1rem;
+}
+.rightbarinfo{
+    margin-bottom: 30px;
+    padding: 1rem;
+}
+.rightbarinfoitem{
+    margin-bottom: 10px;
+}
+.rightbarinfokey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+.rightbarinfovalue{
+    font-weight: 300;
+}
+.rightbarfollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rightbarfollowing{
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+cursor: pointer;
+}

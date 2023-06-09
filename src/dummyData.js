@@ -12,42 +12,42 @@ export const Users = [
     },
     {
         id:3,
-        profilePicture:"assets/persons/P3.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Mahesh Kumawat",
     },
     {
         id:4,
-        profilePicture:"assets/persons/P4.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Ratan yadav",
     },
     {
         id:5,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:6,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:7,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:8,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:9,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:10,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
 ];
@@ -65,27 +65,27 @@ export const onlineUsers = [
     },
     {
         id:3,
-        profilePicture:"assets/persons/P3.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Mahesh Kumawat",
     },
     {
         id:4,
-        profilePicture:"assets/persons/P4.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Ratan yadav",
     },
     {
         id:5,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:6,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     },
     {
         id:7,
-        profilePicture:"assets/persons/P5.jpeg",
+        profilePicture:"assets/persons/P1.jpeg",
         username:"Rajesh Kumawat",
     }
  
