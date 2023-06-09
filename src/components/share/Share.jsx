@@ -1,5 +1,5 @@
 import "./Share.css"
-import { PermMedia } from "@mui/icons-material"
+import { EmojiEmotions, PermMedia,  Pin,  PinDrop, PushPin,  } from "@mui/icons-material"
 
 
 export default function Share() {
@@ -21,17 +21,17 @@ export default function Share() {
 
                         </div>
                         <div className="shereoption">
-                            <PermMedia htmlColor="blue" className="shareicon"/>
+                            <PushPin htmlColor="blue" className="shareicon"/>
                             <span className="shareoptiontext">Tag</span>
 
                         </div>
                         <div className="shereoption">
-                            <PermMedia htmlColor="green" className="shareicon"/>
+                            <PinDrop htmlColor="green" className="shareicon"/>
                             <span className="shareoptiontext">Location</span>
 
                         </div>
                         <div className="shereoption">
-                            < PermMedia htmlColor="golden" className="shareicon"/>
+                            < EmojiEmotions htmlColor="golden" className="shareicon"/>
                             <span className="shareoptiontext">Feelings</span>
 
                         </div>

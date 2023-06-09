@@ -1,10 +1,13 @@
 .topnavbaarContainer{
+    position: fixed;
     height: 50px;
     width: 100%;
     background-color: blue;
     display: flex;
     align-items: center;
     top: 0;
+    z-index: 999;
+    
 }
 
 .topnavbaarLeft{

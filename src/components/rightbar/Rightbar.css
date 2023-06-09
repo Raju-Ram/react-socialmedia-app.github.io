@@ -1,14 +1,16 @@
 .rightbox{
-    flex: 2.10;
+    flex: 1.5;
+    position:sticky;
+    top: 50px;
+    height: calc(100vh - 50px);
+    border-left: 2px solid rgba(60, 52, 52, 0.584);
 }
-.tightbarwrapper{
-    padding: 20px 20px 0 0;
-    
-}
+
 .birthdaycontainer{
     display: flex;
     align-items: center;
-
+    padding: 1rem;
+    
 }
 .birthdayimg{
     height: 40px;
@@ -16,56 +18,34 @@
     margin-right: 10px;
 
 }
+
+.onlineFriendContainer{
+    padding: 1rem 0rem 0rem 1rem;
+    color: rgba(52, 58, 60, 0.584);
+}
+
+
 .birthdaytext{
     font-weight: 300;
     font-size: 15px ;
-
 }
 .rightbarad{
-    width: 100%;
+    width: 80%;
+    height: calc(42vh - 50px);
     border-radius: 10px;
-    margin: 30px 0;
+    padding: 1rem;
 }
+
 .rightbaarfriendlist{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
+    list-style: none; */
+    /* padding: 5px;
+    margin: 10px;
     list-style: none;
-
-}
-.rightbarfriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-
-}
-.rightbarprofilecontainer{
-    margin-right:10px ;
-    position: relative;
-
-}
-.rightbarprofileimg{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-
-}
-.rightbaronline{
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: limegreen;
-    position: absolute;
-    top: -2px;
-    right: 0;
-    border: 2px solid white;
-
-}
-.rightbartital{
-    margin-bottom: 20px;
-
-}
-.rightbarusername{
-    font-weight: 500;
-
+    height: calc(58vh - 50px); */
+    margin: 0;
+    list-style:none ;
+    overflow-y: scroll;
+    height: calc(37vh - 50px);
 }
