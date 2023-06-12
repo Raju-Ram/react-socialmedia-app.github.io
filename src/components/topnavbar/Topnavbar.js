@@ -1,11 +1,13 @@
 import "./Topnavbar.css";
 import { Person, Search, Chat, Notifications } from "@mui/icons-material";
-
+import {Link} from "react-router-dom"
 export default function Topnavbar() {
   return (
     <div className="topnavbaarContainer">
         <div className="topnavbaarLeft">
+            <Link to="/" style={{textDecoration: 'none'}}>
             <span className="logo">OneClick</span>
+            </Link>
         </div>
         <div className="topnavbaarCenter"></div>
        <div className="searchbaar">
@@ -15,8 +17,13 @@ export default function Topnavbar() {
 
         <div className="topnavbaarRight">
             <div className="topnavbarLinks">
-                <span className="topnavbarLink">Homepage</span>
-                <span className="topnavbarLink">TimeLine</span>
+            <Link to="/login" style={{textDecoration: 'none',color:'white'}}>
+              <span className="topnavbarLink">Homepage</span>
+                </Link>
+
+                <Link to="/register" style={{textDecoration: 'none',color:'white'}}>
+                 <span className="topnavbarLink">TimeLine</span>
+                </Link>
          </div>
          <div className="topnavbarIcons">
             <div className="topnavbarIconItem">
@@ -32,6 +39,7 @@ export default function Topnavbar() {
                 <span className="topnavbaarIconBadge">3</span>
             </div>
           <img src="/assets/persons/P1.jpg" alt="" className="topnavbarImg"/>
+        
          </div>
         </div>
 
